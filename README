@@ -1,0 +1,11 @@
+From the top-level folder, do
+
+- docker-compose build hackt
+- docker-compose run --rm hackt
+
+Once inside the container, do
+
+- install_hackt.sh
+
+Now you should have HACKT compiled and installed under `/usr/local` inside the container.
+The compiled binaries are persistently saved in the host machine under `<parent>/local`.
