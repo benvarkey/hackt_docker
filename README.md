@@ -5,9 +5,9 @@ The docker setup is based on Ubuntu 16.04 image, but with the following non-stan
 * flex: 2.5.35
 
 # Setup
-
 Drop into a shell from the top-level folder and do
 
+- <kbd>git submodule update --init --recursive</kbd>
 - <kbd>docker-compose build hackt</kbd>
 - <kbd>docker-compose run --rm hackt</kbd>
 
