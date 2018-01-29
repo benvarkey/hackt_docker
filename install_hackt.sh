@@ -7,7 +7,7 @@ ln -s /bin/bash /bin/sh
 echo "[DOCKER:INFO] Installing HACKT dependencies"
 cd /hackt/deps
 tar -xjf bison-2.3.tar.bz2
-tar -xjf flex-2.5.35.tar.bz2
+tar -xjf flex-2.5.4-2-src.tar.bz2
 
 echo "[DOCKER:INFO] Installing bison-2.3"
 cd ./bison-2.3
@@ -15,8 +15,8 @@ cd ./bison-2.3
 make
 make install
 
-echo "[DOCKER:INFO] Installing flex-2.5.34"
-cd ../flex-2.5.35
+echo "[DOCKER:INFO] Installing flex-2.5.4"
+cd ../flex-2.5.4-2
 ./configure --prefix=/usr/local
 make
 make install
