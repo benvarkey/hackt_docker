@@ -2,7 +2,7 @@ The docker setup is based on Ubuntu 16.04 image, but with the following non-stan
 
 * gcc: 4.7
 * bison: 2.3
-* flex: 2.5.35
+* flex: 2.5.4
 
 # Setup
 Drop into a shell from the top-level folder and do
